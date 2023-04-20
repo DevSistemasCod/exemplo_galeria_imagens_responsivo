@@ -1,5 +1,8 @@
 
 div.galeria {
+  margin: 5px;
+  float: left;
+  width: 300px;
   border: 1px solid #ccc;
 }
 
@@ -9,7 +12,7 @@ div.galeria:hover {
 
 div.galeria img {
   width: 100%;
-  height: auto;
+  height: 200px;
 }
 
 div.descricao {
@@ -22,8 +25,9 @@ div.descricao {
 }
 
 .responsivo {
-  padding: 0 6px;
-  float: left;
+  /* padding: 0 6px;  essa linha é a tem o mesmo comportamento que a linha abaixo*/
+  padding-top: 0;
+  padding-left: 6px;
   width: 25%;
 }
 
